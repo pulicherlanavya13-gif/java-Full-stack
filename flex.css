@@ -1,0 +1,17 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgb(120, 84, 203);
+    color:white;
+}
+.meat{
+    display: flex;
+    flex-direction: column;
+    list-style:circle;
+}
+ul{
+    display: flex;
+    gap: 1cm;
+    list-style:square;
+}

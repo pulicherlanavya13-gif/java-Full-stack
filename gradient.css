@@ -1,0 +1,12 @@
+body{
+    height:20cm;
+    /**background : linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+        background : radial-gradient(red,orange,yellow,green,blue,indigo,violet);
+    background : conic-gradient(red,orange,yellow,green,blue,indigo,violet);*/
+    display:flex;
+    flex-direction:row;
+   align-items: center;
+    gap: 1cm;
+    
+
+}
