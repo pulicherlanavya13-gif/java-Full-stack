@@ -1,0 +1,12 @@
+img{
+    width:150px;
+    height:100px;
+    border-radius: 30%;
+    margin: 30px;
+    border-style:dotted;
+    border-color: darkmagenta;
+    padding:40px;
+    position:sticky;
+    top:1cm;
+
+}

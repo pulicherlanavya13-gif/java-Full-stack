@@ -1,0 +1,46 @@
+h1{
+    margin:20px;
+    text-align: center;
+    background-color:fuchsia;
+    border-style:solid;
+    border-color:blue red black aqua;
+    border-width:0.5cm;
+}
+img{
+    width:200px;
+    height:250px;
+    border-radius: 30%;
+    margin: 30px;
+    border-style:solid;
+    border-color: darkmagenta;
+    position:static;
+}
+p{
+    font-size: 20px;
+    color:darkred;
+}
+body{
+    background-color:rgb(225,225,12);
+
+}
+img{
+    animation:picture 10s ease-in-out 3s infinie;
+}
+@keyframes picture{
+    0%{
+        transform:translate(0cm,0cm);
+    }
+    25%{
+        transform:translate(10cm,0cm);
+    }
+    50%{
+        transform:translate(10cm,10cm);
+    }
+    75%{
+        transform:translate(0cm,10cm);
+    }
+    100%{
+        transform:translate(0cm,0cm);
+    }
+
+} 
