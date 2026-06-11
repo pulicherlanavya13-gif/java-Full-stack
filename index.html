@@ -1,52 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navya</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Pulicherla Navya — Software Engineer</title>
+    <meta name="description" content="Pulicherla Navya — Software Engineer. Full-stack web developer skilled in Java, JavaScript, React, Node.js. Open to opportunities." />
+    <meta property="og:title" content="Pulicherla Navya — Software Engineer" />
+    <meta property="og:description" content="Full-stack web developer skilled in Java, JavaScript, React, Node.js. Open to opportunities." />
+    <meta property="og:type" content="website" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {"@context":"http://schema.org","@type":"Person","name":"Pulicherla Navya","jobTitle":"Software Engineer","email":"pulicherlanavya@gmail.com","telephone":"+919985043479","alumniOf":"Mother Teresa Engineering College"}
+    </script>
+    <style>
+        :root{--bg:#0f1724;--card:#0b1220;--accent:#4f46e5;--muted:#94a3b8;--glass:rgba(255,255,255,0.04)}
+        *{box-sizing:border-box}
+        html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;color:#e6eef8;background:linear-gradient(180deg,#071121 0%,#071730 100%)}
+        .container{max-width:1100px;margin:32px auto;padding:24px}
+        header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+        .brand{display:flex;align-items:center;gap:14px}
+        .avatar{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,#6ee7b7,#60a5fa);display:flex;align-items:center;justify-content:center;color:#04263b;font-weight:700;font-size:20px}
+        nav a{color:var(--muted);text-decoration:none;margin-left:16px;font-weight:600}
+        .hero{display:grid;grid-template-columns:1fr 320px;gap:24px;margin-top:28px;align-items:start}
+        .card{background:var(--card);padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+        h1{margin:0;font-size:28px;color:#fff}
+        h2{margin:0;font-size:18px;color:#cfe8ff}
+        p.lead{color:var(--muted);margin-top:12px}
+        .info-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+        .chip{background:var(--glass);padding:6px 10px;border-radius:999px;color:#cfe8ff;font-weight:600}
+        .skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+        .skill{background:rgba(255,255,255,0.04);padding:8px 10px;border-radius:8px;color:var(--muted);font-weight:600}
+        .right .contact-card{display:flex;flex-direction:column;gap:12px}
+        .contact-item{display:flex;align-items:center;gap:12px}
+        .btn{background:var(--accent);color:white;padding:10px 12px;border-radius:10px;border:none;font-weight:700;cursor:pointer}
+        section{margin-top:20px}
+        .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+        .project{padding:14px;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border-radius:10px}
+        .project h3{margin:0 0 8px 0;color:#fff}
+        footer{margin-top:28px;padding:18px;text-align:center;color:var(--muted)}
+        form input,form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:#dbeafe}
+        @media(max-width:880px){.hero{grid-template-columns:1fr}.avatar{width:64px;height:64px}}
+    </style>
 </head>
 <body>
-    <h1>Bio-data</h1>
-    <hr>
-    <h2 style="color:red">about hema</h2>
-    <p>i am pursing <u>btech</u> 3<sup>rd</sup> year in the field of <i>CSE</i> in Mother theresa engineering college i am participated in <Big><i>Hackthon</i></Big></p>
-    <p>Programming languages:
-        <br>
-        <ol>
-        <li>c</li>
-         <li>java</li>
-        <li>python</li>
-        </ol></p>
-        <p>
-            <table>
-                <tr>
-                    <th>5 <sup>th</sup>semester</th>
-                    <th>Marks</th>
-                    <th>Grade</th>
-                </tr>
-                <tr>
-                    <td class="myclass">DBMS</td>
-                    <td>99</td>
-                    <td><b>S</b></td>
-                </tr>
-                <tr>
-                    <td id="id1">Software engineering</td>
-                    <td>90</td>
-                    <td><b>S</b></td>
-                </tr>
-                <tr>
-                    <td>CN</td>
-                    <td>81</td>
-                    <td><b>A</b></td>
-                </tr>
-                <tr>
-                    <td>DE</td>
-                    <td>98</td>
-                    <td><b>S</b></td>
-                </tr>
-            
-            </table>
-        </p>
-<a href="form.html">form</a></body>
+    <div class="container">
+        <header>
+            <div class="brand">
+                <div class="avatar">PN</div>
+                <div>
+                    <div style="display:flex;gap:8px;align-items:baseline"><h1>Pulicherla Navya</h1><span style="color:var(--muted);font-weight:600">• Software Engineer</span></div>
+                    <div style="color:var(--muted);font-size:13px;margin-top:6px">B.Tech — Mother Teresa Engineering College</div>
+                </div>
+            </div>
+            <nav aria-label="Main navigation">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <div class="hero">
+            <div class="card">
+                <h2 id="about">About</h2>
+                <p class="lead">I am <strong>Pulicherla Navya</strong>, a software engineer with experience building web applications, APIs and tooling. I focus on delivering scalable, well-tested systems and clear user experiences. I enjoy mentoring peers and contributing to community projects.</p>
+
+                <section aria-labelledby="highlights">
+                    <h3 id="highlights" style="margin-top:14px">Highlights</h3>
+                    <ul style="color:var(--muted);margin:8px 0 0 18px">
+                        <li>Experienced in full-stack development with Java, Spring Boot, Node.js and React.</li>
+                        <li>Built production features with authentication, background jobs, and REST/GraphQL APIs.</li>
+                        <li>Comfortable with SQL, MongoDB, Docker, and CI/CD pipelines.</li>
+                    </ul>
+                </section>
+
+                <div class="info-list">
+                    <div class="chip">Location: India</div>
+                    <div class="chip">Degree: B.Tech (CSE)</div>
+                    <div class="chip">Availability: Open to opportunities</div>
+                </div>
+
+                <section id="skills">
+                    <h2>Skills</h2>
+                    <div class="skills">
+                        <div class="skill">Java</div>
+                        <div class="skill">Spring Boot</div>
+                        <div class="skill">JavaScript (ES6+)</div>
+                        <div class="skill">React</div>
+                        <div class="skill">Node.js</div>
+                        <div class="skill">Python</div>
+                        <div class="skill">SQL / NoSQL</div>
+                        <div class="skill">REST & GraphQL</div>
+                        <div class="skill">Docker · Git · CI/CD</div>
+                    </div>
+                </section>
+
+                <section id="experience">
+                    <h2>Experience</h2>
+                    <div style="margin-top:10px;color:var(--muted)">
+                        <strong>Software Developer Intern</strong> — Tech Startup (Remote) <span style="float:right;color:#9fb4da">Jan 2025 — Aug 2025</span>
+                        <ul style="margin:8px 0 12px 18px">
+                            <li>Developed RESTful services in Spring Boot and integrated with PostgreSQL.</li>
+                            <li>Implemented authentication and role-based access; improved test coverage by 30%.</li>
+                        </ul>
+
+                        <strong>Project Lead — Campus Hackathon</strong> — Mother Teresa Engineering College <span style="float:right;color:#9fb4da">Sep 2024</span>
+                        <ul style="margin:8px 0 0 18px">
+                            <li>Led a 4-person team to deliver an event-management platform using React and Node.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="education">
+                    <h2>Education</h2>
+                    <div style="margin-top:10px;color:var(--muted)">
+                        <strong>B.Tech, Computer Science & Engineering(Data science)</strong> — Mother Teresa Engineering College
+                        <div style="font-size:13px;color:#9fb4da;margin-top:6px">Expected Graduation: 2026</div>
+                        <div style="margin-top:8px">Relevant coursework: Data Structures, Algorithms, Database Systems, Software Engineering, Computer Networks.</div>
+                    </div>
+                </section>
+
+                <section id="certifications">
+                    <h2>Certifications & Training</h2>
+                    <ul style="color:var(--muted);margin:8px 0 0 18px">
+                        <li>AWS Cloud Practitioner — (self-study)</li>
+                        <li>Oracle Certified: Java SE (practice)</li>
+                        <li>Front-End Frameworks — React (online specialization)</li>
+                    </ul>
+                </section>
+
+                <section id="projects">
+                    <h2>Selected Projects</h2>
+                    <div class="projects">
+                        <article class="project">
+                            <h3>Taskify — React + Node</h3>
+                            <div style="color:var(--muted);font-size:13px">Collaborative task manager with real-time updates, JWT auth, role-based access and integration tests.</div>
+                            <div style="margin-top:8px"><a href="https://github.com/pulicherlanavya/taskify" style="color:#9fc7ff">View on GitHub</a></div>
+                        </article>
+                        <article class="project">
+                            <h3>EduConnect — Full-stack Platform</h3>
+                            <div style="color:var(--muted);font-size:13px">Education portal with course catalog, enrollment flows, and admin dashboards built with Spring Boot and React.</div>
+                            <div style="margin-top:8px"><a href="#" style="color:#9fc7ff">Demo</a> · <a href="#" style="color:#9fc7ff">Source</a></div>
+                        </article>
+                        <article class="project">
+                            <h3>Resume Analyzer</h3>
+                            <div style="color:var(--muted);font-size:13px">NLP resume parser that extracts skills and experience for candidate-job matching; includes a small Flask API.</div>
+                            <div style="margin-top:8px"><a href="#" style="color:#9fc7ff">Source</a></div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+
+            <aside class="card right">
+                <div class="contact-card">
+                    <h2>Contact</h2>
+                    <div style="color:var(--muted);font-size:14px">I'm happy to connect about software engineering roles, internships, or collaborations.</div>
+
+                    <div class="contact-item"><strong style="width:80px;display:inline-block">Phone</strong><a href="tel:+919985043479" style="color:#cfe8ff;text-decoration:none">+91 99850 43479</a></div>
+                    <div class="contact-item"><strong style="width:80px;display:inline-block">Email</strong><a href="mailto:pulicherlanavya@gmail.com" style="color:#cfe8ff;text-decoration:none">pulicherlanavya@gmail.com</a></div>
+
+                    <div style="display:flex;gap:8px;margin-top:6px">
+                        <button class="btn" id="copyEmail">Copy Email</button>
+                        <button class="btn" id="copyPhone">Copy Phone</button>
+                    </div>
+
+                    <div style="margin-top:12px">
+                        <h3 style="margin:0 0 8px 0">Quick message</h3>
+                        <form id="contactForm">
+                            <input id="name" placeholder="Your name" required />
+                            <input id="email" placeholder="Your email" type="email" required style="margin-top:8px" />
+                            <textarea id="message" placeholder="Message" rows="4" style="margin-top:8px"></textarea>
+                            <button type="submit" class="btn" style="margin-top:8px">Send (mailto)</button>
+                        </form>
+                        <div id="formMsg" style="color:var(--muted);margin-top:8px;font-size:13px"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <footer>
+            <div style="color:var(--muted)">Pulicherla Navya — B.Tech, Mother Teresa Engineering College · Designed for clarity and accessibility.</div>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('copyEmail').addEventListener('click',async()=>{
+            await navigator.clipboard.writeText('pulicherlanavya@gmail.com');
+            alert('Email copied to clipboard');
+        });
+        document.getElementById('copyPhone').addEventListener('click',async()=>{
+            await navigator.clipboard.writeText('+919985043479');
+            alert('Phone copied to clipboard');
+        });
+
+        document.getElementById('contactForm').addEventListener('submit',function(e){
+            e.preventDefault();
+            const name=document.getElementById('name').value||'';
+            const email=document.getElementById('email').value||'pulicherlanavya@gmail.com';
+            const message=document.getElementById('message').value||'';
+            const subject=encodeURIComponent('Portfolio message from '+name);
+            const body=encodeURIComponent('Name: '+name+'\nEmail: '+email+'\n\n'+message);
+            window.location.href = `mailto:pulicherlanavya@gmail.com?subject=${subject}&body=${body}`;
+            document.getElementById('formMsg').textContent='Opening your mail client to send the message.';
+        });
+    </script>
+</body>
 </html>
