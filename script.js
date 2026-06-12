@@ -126,7 +126,7 @@ let sales={
     Nan:chocolates[4],
     ni:chocolates[5]
 }
-
+console.log(sales.Navya);
 
 
 
